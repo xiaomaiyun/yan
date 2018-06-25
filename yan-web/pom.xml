@@ -112,7 +112,7 @@
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
-            <version>3.4.11</version>
+            <version>3.4.9</version>
             <exclusions>
                 <exclusion>
                     <artifactId>slf4j-log4j12</artifactId>
@@ -214,10 +214,10 @@
                     <!-- 指定监控的扫描时间间隔，0为关闭jetty自身的热部署 -->
                     <scanIntervalSeconds>0</scanIntervalSeconds>
                     <webAppConfig>
-                        <contextPath>/yan-web</contextPath>
+                        <contextPath>/yanweb</contextPath>
                     </webAppConfig>
                     <httpConnector>
-                        <port>8888</port>
+                        <port>9999</port>
                     </httpConnector>
                 </configuration>
             </plugin>
